@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Heading from "./components/Heading";
+import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Heading />
     </div>
   );
 }
