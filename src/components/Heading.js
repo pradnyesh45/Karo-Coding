@@ -7,11 +7,20 @@ function heading() {
     <div>
       <Container>
         <Row>
-          <Col>Meet the Creator</Col>
+          <Col>
+            <HeadingCard />
+          </Col>
+          <Col>
+            <HeadingCard />
+          </Col>
+          <Col>
+            <HeadingCard />
+          </Col>
+          {/* <Col>Meet the Creator</Col>
           <Col>Become Intermediate Coder from Sratch</Col>
           <Col>
             If you find the application useful, then you can donate Here!
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

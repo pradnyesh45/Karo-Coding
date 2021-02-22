@@ -1,7 +1,7 @@
 import React from "react";
 
-function navigation() {
+function Content() {
   return <div></div>;
 }
 
-export default navigation;
+export default Content;
