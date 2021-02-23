@@ -8,7 +8,11 @@ function Navigation({ value, onChildClick }) {
   return (
     <div>
       <Container>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="BeforeStarting"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Before Starting
         </Button>
         <Button
@@ -18,68 +22,172 @@ function Navigation({ value, onChildClick }) {
         >
           C++
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="PatternPrinting"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Pattern Printing
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Arrays"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Arrays
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Searching"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Searching
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Sorting"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Sorting
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Strings"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Strings
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Pointers"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Pointers
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="TimeSpaceComplexity"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Time and Space Complexity
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Recursion"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Recursion
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>OOPS</Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="OOPS"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
+          OOPS
+        </Button>
+        <Button
+          value="Vectors"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Vectors
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>STL</Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="STL"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
+          STL
+        </Button>
+        <Button
+          value="LinkedList"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Linked List
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Stacks"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Stacks
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Queues"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Queues
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>Trees</Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Trees"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
+          Trees
+        </Button>
+        <Button
+          value="BinaryTrees"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Binary Trees
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="BinarySearchTrees"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Binary Search Trees
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Hashmaps"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Hashmaps
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="PriorityQueues"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Priority Queues
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>Tries</Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Tries"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
+          Tries
+        </Button>
+        <Button
+          value="Greedy"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Greedy
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="DynamicProgramming"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Dynamic Programming
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="Graphs"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Graphs
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+        <Button
+          value="BitManipulation"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
           Bit Manipulation
         </Button>
       </Container>
