@@ -1,15 +1,22 @@
-import background from "./img/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg";
 import Heading from "../src/components/Heading";
 import Navigation from "../src/components/Navigation";
 import Problem from "../src/components/Problem";
 import Introduction from "../src/components/Introduction";
+
+var ProblemComponent = () => {
+  switch (true) {
+    case true:
+      return <Problem />;
+    default:
+      return null;
+  }
+};
 
 function App() {
   return (
     <div
       style={{
         backgroundColor: "#e4e6e4",
-        // backgroundImage: `url(${background})`,
       }}
     >
       <Introduction />
@@ -18,7 +25,7 @@ function App() {
       <br></br>
       <Navigation />
       <br></br>
-      <Problem />
+      {ProblemComponent()}
     </div>
   );
 }
