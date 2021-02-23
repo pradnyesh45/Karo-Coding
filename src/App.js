@@ -1,18 +1,28 @@
 import Heading from "../src/components/Heading";
 import Navigation from "../src/components/Navigation";
-import Problem from "../src/components/Problem";
+import ProblemCpp from "./components/ProblemCpp";
 import Introduction from "../src/components/Introduction";
-
-var ProblemComponent = () => {
-  switch (true) {
-    case true:
-      return <Problem />;
-    default:
-      return null;
-  }
-};
+import ProblemPatternPrinting from "../src/components/ProblemPatternPrinting";
+import { useState } from "react";
 
 function App() {
+  let [component, setComponent] = useState("Pattern Printing");
+
+  function handleChildClick(value) {
+    setComponent(value);
+  }
+
+  var ProblemComponent = (component) => {
+    switch (component) {
+      case "C++":
+        return <ProblemCpp />;
+      case "Pattern Printing":
+        return <ProblemPatternPrinting />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div
       style={{
@@ -23,9 +33,9 @@ function App() {
       <br></br>
       <Heading />
       <br></br>
-      <Navigation />
+      <Navigation onChildClick={handleChildClick} />
       <br></br>
-      {ProblemComponent()}
+      {ProblemComponent(component)}
     </div>
   );
 }

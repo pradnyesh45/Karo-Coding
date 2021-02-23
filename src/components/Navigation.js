@@ -1,14 +1,23 @@
 import React from "react";
 import { Button, ButtonGroup, Container } from "react-bootstrap";
 
-function Navigation() {
+function Navigation({ value, onChildClick }) {
+  function handleClick(event) {
+    onChildClick(event.target.value);
+  }
   return (
     <div>
       <Container>
         <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
           Before Starting
         </Button>
-        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>C++</Button>
+        <Button
+          value="C++"
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+          onClick={handleClick}
+        >
+          C++
+        </Button>
         <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
           Pattern Printing
         </Button>
@@ -61,6 +70,9 @@ function Navigation() {
           Priority Queues
         </Button>
         <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>Tries</Button>
+        <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
+          Greedy
+        </Button>
         <Button style={{ margin: 5, backgroundColor: "#ff0000" }}>
           Dynamic Programming
         </Button>
