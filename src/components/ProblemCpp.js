@@ -905,6 +905,71 @@ var CppList = [
     problemLink: "No Link",
     tutorialLink: "https://www.youtube.com/watch?v=QGNuUkgig3A",
   },
+  {
+    id: 146,
+    problemStatement: "Writing Classes in Separate Files using #define​ in C++",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=pywM36qKHvg",
+  },
+  {
+    id: 147,
+    problemStatement:
+      "C++ Most Asked Important Example Programs Tutorial in One Video",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=UOBPRjaVagY",
+  },
+  {
+    id: 148,
+    problemStatement: "C++ Even or Odd Number Program",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=jR1WfgJRkA8",
+  },
+  {
+    id: 149,
+    problemStatement:
+      "How to Create a Simple Calculator Program using C++ Programming Language ?",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=CNiWWX15Zns",
+  },
+  {
+    id: 150,
+    problemStatement: "CPP Introduction, History, Features",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=3fwKlU9AwSY",
+  },
+  {
+    id: 151,
+    problemStatement: "How C++ Works, Compilers, Linkers, IDE's",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=twodd1KFfGk",
+  },
+  {
+    id: 152,
+    problemStatement: "C++ Program to Find the Factorial of a Number Tutorial",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=sq-q1NmZF1M",
+  },
+  {
+    id: 153,
+    problemStatement:
+      "How to Download and Install C Cpp Toolset ( gcc g++ gdb ) in Windows 10 using mingw-w64 and msys2",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=0HD0pqVtsmw",
+  },
+  {
+    id: 154,
+    problemStatement:
+      "How to set up Visual Studio Code for Executing and Debugging C++ Programs | Tutorial for Beginners",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=rgCJbsCSARM",
+  },
+  {
+    id: 155,
+    problemStatement:
+      "How to Compile and Run a C++ Program from Command Prompt in Windows 10",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=vAPi4qN9kCs",
+  },
 ];
 
 function ProblemCpp() {

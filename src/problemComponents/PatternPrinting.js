@@ -6,8 +6,24 @@ function PatternPrinting(props) {
     <tr>
       <td>{props.PatternPrintingList.id}</td>
       <td>{props.PatternPrintingList.problemStatement}</td>
-      <td>{props.PatternPrintingList.problemLink}</td>
-      <td>{props.PatternPrintingList.tutorialLink}</td>
+      <td>
+        {props.PatternPrintingList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.PatternPrintingList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.PatternPrintingList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.PatternPrintingList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

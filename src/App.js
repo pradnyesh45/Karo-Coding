@@ -8,10 +8,8 @@ import ProblemArrays from "../src/components/ProblemArrays";
 import ProblemSearching from "../src/components/ProblemSearching";
 import ProblemSorting from "../src/components/ProblemSorting";
 import ProblemStrings from "../src/components/ProblemStrings";
-import ProblemPointers from "../src/components/ProblemPointers";
 import ProblemTimeSpaceComplexity from "../src/components/ProblemTimeSpaceComplexity";
 import ProblemRecursion from "../src/components/ProblemRecursion";
-import ProblemOOPS from "../src/components/ProblemOOPS";
 import ProblemVectors from "../src/components/ProblemVectors";
 import ProblemSTL from "../src/components/ProblemSTL";
 import ProblemLinkedList from "../src/components/ProblemLinkedList";
@@ -59,14 +57,10 @@ function App() {
         return <ProblemSorting />;
       case "Strings":
         return <ProblemStrings />;
-      case "Pointers":
-        return <ProblemPointers />;
       case "TimeSpaceComplexity":
         return <ProblemTimeSpaceComplexity />;
       case "Recursion":
         return <ProblemRecursion />;
-      case "OOPS":
-        return <ProblemOOPS />;
       case "Vectors":
         return <ProblemVectors />;
       case "STL":

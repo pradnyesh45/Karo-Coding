@@ -1,13 +1,28 @@
 import React from "react";
-import { Table, Container } from "react-bootstrap";
 
 function Arrays(props) {
   return (
     <tr>
       <td>{props.ArraysList.id}</td>
       <td>{props.ArraysList.problemStatement}</td>
-      <td>{props.ArraysList.problemLink}</td>
-      <td>{props.ArraysList.tutorialLink}</td>
+      <td>
+        {props.ArraysList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.ArraysList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.ArraysList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.ArraysList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }
