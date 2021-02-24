@@ -6,8 +6,24 @@ function Cpp(props) {
     <tr>
       <td>{props.CppList.id}</td>
       <td>{props.CppList.problemStatement}</td>
-      <td>{props.CppList.problemLink}</td>
-      <td>{props.CppList.tutorialLink}</td>
+      <td>
+        {props.CppList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.CppList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.CppList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.CppList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

@@ -20,7 +20,7 @@ function Navigation({ value, onChildClick }) {
           style={{ margin: 5, backgroundColor: "#ff0000" }}
           onClick={handleClick}
         >
-          C++
+          C++, OOPS and File Handling
         </Button>
         <Button
           value="PatternPrinting"

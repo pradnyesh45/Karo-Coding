@@ -13,10 +13,10 @@ function Donate({ value, onDonateClick }) {
             <Card.Title>UPI: 8446779815@upi</Card.Title>
             <Card.Text>
               If you find this application useful then you can show your
-              appreciation by donating some amount of you choice to the given
+              appreciation by donating some amount of your choice to the given
               UPI id. Happy Coding!
             </Card.Text>
-            <Button value={false} onClick={handleClick} variant="primary">
+            <Button value="false" onClick={handleClick} variant="primary">
               Back
             </Button>
           </Card.Body>
