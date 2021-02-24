@@ -142,6 +142,123 @@ var ArraysList = [
     problemLink: "No Link",
     tutorialLink: "https://www.youtube.com/watch?v=cEphEIMaqms",
   },
+  {
+    id: 24,
+    problemStatement: "Pointer Arithmetic (Addition)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=FmptkK2XZ0w",
+  },
+  {
+    id: 25,
+    problemStatement: "Pointer Arithmetic (Subtraction)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=MgsPbqOKF-c",
+  },
+  {
+    id: 26,
+    problemStatement: "Pointer Arithmetic (Increment & Decrement)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=gwqbYnxQGR8",
+  },
+  {
+    id: 27,
+    problemStatement: "Pointer Arithmetic (Comparing the Pointers)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=nYHA3eZuhzc",
+  },
+  {
+    id: 28,
+    problemStatement:
+      "Pointers (Program 1) | Sum of Array Elements using Pointers",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=04x7hKdyJAQ",
+  },
+  {
+    id: 29,
+    problemStatement: "Using Array Name as a Pointer",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=gv-y9hIhvq4",
+  },
+  {
+    id: 30,
+    problemStatement:
+      "Pointers (Program 2) | Reverse a Series of Numbers using Pointers",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=D4QmCQePRko",
+  },
+  {
+    id: 31,
+    problemStatement: "Passing Array as an Argument to a Function",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=gNlmJ2WrZSY",
+  },
+  {
+    id: 32,
+    problemStatement: "Using Pointers to Print 2D Arrays",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=lCDGo7rK3ms",
+  },
+  {
+    id: 33,
+    problemStatement:
+      "Processing the Multidimensional Array Elements (or) Address Arithmetic of Multidimensional Arrays",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=3fOPOUnkcdQ",
+  },
+  {
+    id: 34,
+    problemStatement: "Pointers (Program 3)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=ZiA6HB7JbxE",
+  },
+  {
+    id: 35,
+    problemStatement: "Pointers (Program 4)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=kI9BV7D4OZM",
+  },
+  {
+    id: 36,
+    problemStatement: "Pointer Pointing to an Entire Array",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=ibj_AKOxpHo",
+  },
+  {
+    id: 37,
+    problemStatement: "Pointer Pointing to an Entire Array (Solved Problem)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=zt2Z8U_1kmw",
+  },
+  {
+    id: 38,
+    problemStatement: "Pointers (Program 5)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=I95ebG2tifA",
+  },
+  {
+    id: 39,
+    problemStatement: "Pointers (Program 6)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=U8Ps0XSQdJw",
+  },
+  {
+    id: 40,
+    problemStatement: "Pointers (Program 7)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=alEjARaJ-Fo",
+  },
+  {
+    id: 41,
+    problemStatement: "Pointers (Program 8)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=ze2lBQwugDw",
+  },
+  {
+    id: 42,
+    problemStatement: "Pointers (Program 9)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=Mgygikl0Ym8",
+  },
 ];
 
 function ProblemArrays() {

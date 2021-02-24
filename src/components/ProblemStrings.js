@@ -5,9 +5,9 @@ import Strings from "../problemComponents/Strings";
 var StringsList = [
   {
     id: 1,
-    problemStatement: "pattern1",
-    problemLink: "problem1",
-    tutorialLink: 0,
+    problemStatement: "C++ string length",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=wAJnq4X_HeQ",
   },
   {
     id: 2,

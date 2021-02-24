@@ -6,8 +6,24 @@ function Recursion(props) {
     <tr>
       <td>{props.RecursionList.id}</td>
       <td>{props.RecursionList.problemStatement}</td>
-      <td>{props.RecursionList.problemLink}</td>
-      <td>{props.RecursionList.tutorialLink}</td>
+      <td>
+        {props.RecursionList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.RecursionList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.RecursionList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.RecursionList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

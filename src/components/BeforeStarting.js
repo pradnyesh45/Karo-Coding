@@ -23,6 +23,12 @@ function BeforeStarting() {
           </li>
           <hr></hr>
           <li>
+            When you have finished with one topic, if you want you can head over
+            to various sites such HackerRank, ect. and try to solve problems on
+            the given topic.
+          </li>
+          <hr></hr>
+          <li>
             There are various things available to explore after completing these
             questions. One can further improve his problem solving skills
             through Competitive Programming or one can dwelve into technical

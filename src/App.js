@@ -6,7 +6,6 @@ import Introduction from "../src/components/Introduction";
 import ProblemPatternPrinting from "../src/components/ProblemPatternPrinting";
 import ProblemArrays from "../src/components/ProblemArrays";
 import ProblemSearching from "../src/components/ProblemSearching";
-import ProblemSorting from "../src/components/ProblemSorting";
 import ProblemStrings from "../src/components/ProblemStrings";
 import ProblemTimeSpaceComplexity from "../src/components/ProblemTimeSpaceComplexity";
 import ProblemRecursion from "../src/components/ProblemRecursion";
@@ -51,16 +50,14 @@ function App() {
         return <ProblemPatternPrinting />;
       case "Arrays":
         return <ProblemArrays />;
+      case "Recursion":
+        return <ProblemRecursion />;
       case "Searching":
         return <ProblemSearching />;
-      case "Sorting":
-        return <ProblemSorting />;
       case "Strings":
         return <ProblemStrings />;
       case "TimeSpaceComplexity":
         return <ProblemTimeSpaceComplexity />;
-      case "Recursion":
-        return <ProblemRecursion />;
       case "Vectors":
         return <ProblemVectors />;
       case "STL":

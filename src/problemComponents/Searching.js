@@ -6,8 +6,24 @@ function Searching(props) {
     <tr>
       <td>{props.SearchingList.id}</td>
       <td>{props.SearchingList.problemStatement}</td>
-      <td>{props.SearchingList.problemLink}</td>
-      <td>{props.SearchingList.tutorialLink}</td>
+      <td>
+        {props.SearchingList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.SearchingList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.SearchingList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.SearchingList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

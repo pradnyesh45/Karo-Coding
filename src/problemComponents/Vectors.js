@@ -6,8 +6,24 @@ function Vectors(props) {
     <tr>
       <td>{props.VectorsList.id}</td>
       <td>{props.VectorsList.problemStatement}</td>
-      <td>{props.VectorsList.problemLink}</td>
-      <td>{props.VectorsList.tutorialLink}</td>
+      <td>
+        {props.VectorsList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.VectorsList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.VectorsList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.VectorsList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

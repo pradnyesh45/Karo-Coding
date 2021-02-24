@@ -5,15 +5,15 @@ import Recursion from "../problemComponents/Recursion";
 var RecursionList = [
   {
     id: 1,
-    problemStatement: "pattern1",
-    problemLink: "problem1",
-    tutorialLink: 0,
+    problemStatement: "Recursion in C",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=kepBmgvWNDw",
   },
   {
     id: 2,
-    problemStatement: 1,
-    problemLink: 1,
-    tutorialLink: 1,
+    problemStatement: "How to write Recursive Functions",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=ggk7HbcnLG8",
   },
 ];
 

@@ -37,18 +37,19 @@ function Navigation({ value, onChildClick }) {
           Arrays and Pointers
         </Button>
         <Button
+          value="Vectors"
+          onClick={handleClick}
+          style={{ margin: 5, backgroundColor: "#ff0000" }}
+        >
+          Vectors
+        </Button>
+
+        <Button
           value="Searching"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Searching
-        </Button>
-        <Button
-          value="Sorting"
-          onClick={handleClick}
-          style={{ margin: 5, backgroundColor: "#ff0000" }}
-        >
-          Sorting
+          Searching and Sorting
         </Button>
         <Button
           value="Strings"
@@ -57,7 +58,6 @@ function Navigation({ value, onChildClick }) {
         >
           Strings
         </Button>
-
         <Button
           value="TimeSpaceComplexity"
           onClick={handleClick}
@@ -73,13 +73,6 @@ function Navigation({ value, onChildClick }) {
           Recursion
         </Button>
 
-        <Button
-          value="Vectors"
-          onClick={handleClick}
-          style={{ margin: 5, backgroundColor: "#ff0000" }}
-        >
-          Vectors
-        </Button>
         <Button
           value="STL"
           onClick={handleClick}

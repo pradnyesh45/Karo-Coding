@@ -5,15 +5,9 @@ import Vectors from "../problemComponents/Vectors";
 var VectorsList = [
   {
     id: 1,
-    problemStatement: "pattern1",
-    problemLink: "problem1",
-    tutorialLink: 0,
-  },
-  {
-    id: 2,
-    problemStatement: 1,
-    problemLink: 1,
-    tutorialLink: 1,
+    problemStatement: "Vector In C++ STL ",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=wKDvMcJiEPM",
   },
 ];
 
