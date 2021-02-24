@@ -28,12 +28,19 @@ import ProblemDynamicProgramming from "../src/components/ProblemDynamicProgrammi
 import ProblemGraphs from "../src/components/ProblemGraphs";
 import ProblemBitManipulation from "../src/components/ProblemBitManipulation";
 import BeforeStarting from "../src/components/BeforeStarting";
+import Donate from "../src/components/Donate";
 
 function App() {
   let [component, setComponent] = useState("BeforeStarting");
 
   function handleChildClick(value) {
+    console.log(value);
     setComponent(value);
+  }
+
+  let [donate, setDonate] = useState(false);
+  function handleDonateClick(value) {
+    setDonate(value);
   }
 
   var ProblemComponent = (component) => {
@@ -101,7 +108,12 @@ function App() {
         backgroundColor: "#e4e6e4",
       }}
     >
-      <Introduction />
+      {donate === "true" ? (
+        <Donate onDonateClick={handleDonateClick} />
+      ) : (
+        <Introduction onDonateClick={handleDonateClick} />
+      )}
+
       <br></br>
       <Heading />
       <br></br>

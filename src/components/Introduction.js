@@ -1,7 +1,10 @@
 import React from "react";
 import { Jumbotron, Container, Button } from "react-bootstrap";
 
-function Introduction() {
+function Introduction({ value, onDonateClick }) {
+  function handleClick(event) {
+    onDonateClick(event.target.value);
+  }
   return (
     <div>
       <Jumbotron fluid>
@@ -18,7 +21,9 @@ function Introduction() {
             Tech. Then you are at the exact right place. Content is provided in
             Hinglish Language.
           </p>
-          <Button variant="success">Donate</Button>
+          <Button value="true" onClick={handleClick} variant="success">
+            Donate
+          </Button>
         </Container>
       </Jumbotron>
     </div>
