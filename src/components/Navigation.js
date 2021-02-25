@@ -78,59 +78,40 @@ function Navigation({ value, onChildClick }) {
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          STL
+          STL in C++
         </Button>
         <Button
           value="LinkedList"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Linked List
+          Singly, Doubly and Circular Linked List
         </Button>
         <Button
           value="Stacks"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Stacks
+          Stacks and Queues
         </Button>
-        <Button
-          value="Queues"
-          onClick={handleClick}
-          style={{ margin: 5, backgroundColor: "#ff0000" }}
-        >
-          Queues
-        </Button>
+
         <Button
           value="Trees"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Trees
+          Trees, Binary Trees and Binary Search Trees
         </Button>
+
         <Button
-          value="BinaryTrees"
-          onClick={handleClick}
-          style={{ margin: 5, backgroundColor: "#ff0000" }}
-        >
-          Binary Trees
-        </Button>
-        <Button
-          value="BinarySearchTrees"
-          onClick={handleClick}
-          style={{ margin: 5, backgroundColor: "#ff0000" }}
-        >
-          Binary Search Trees
-        </Button>
-        <Button
-          value="Hashmaps"
+          value="Hashing"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
           Hashmaps
         </Button>
         <Button
-          value="PriorityQueues"
+          value="PriorityQueues/Heap"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >

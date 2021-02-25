@@ -6,8 +6,24 @@ function Stacks(props) {
     <tr>
       <td>{props.StacksList.id}</td>
       <td>{props.StacksList.problemStatement}</td>
-      <td>{props.StacksList.problemLink}</td>
-      <td>{props.StacksList.tutorialLink}</td>
+      <td>
+        {props.StacksList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.StacksList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.StacksList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.StacksList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

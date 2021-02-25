@@ -6,8 +6,24 @@ function Trees(props) {
     <tr>
       <td>{props.TreesList.id}</td>
       <td>{props.TreesList.problemStatement}</td>
-      <td>{props.TreesList.problemLink}</td>
-      <td>{props.TreesList.tutorialLink}</td>
+      <td>
+        {props.TreesList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.TreesList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.TreesList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.TreesList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

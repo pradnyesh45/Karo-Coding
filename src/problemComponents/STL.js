@@ -6,8 +6,24 @@ function STL(props) {
     <tr>
       <td>{props.STLList.id}</td>
       <td>{props.STLList.problemStatement}</td>
-      <td>{props.STLList.problemLink}</td>
-      <td>{props.STLList.tutorialLink}</td>
+      <td>
+        {props.STLList.problemLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.STLList.problemLink} target="_blank">
+            Problem Link
+          </a>
+        )}
+      </td>
+      <td>
+        {props.STLList.tutorialLink === "No Link" ? (
+          "No Link"
+        ) : (
+          <a href={props.STLList.tutorialLink} target="_blank">
+            Tutorial Link
+          </a>
+        )}
+      </td>
     </tr>
   );
 }

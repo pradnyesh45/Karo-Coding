@@ -13,10 +13,7 @@ import ProblemVectors from "../src/components/ProblemVectors";
 import ProblemSTL from "../src/components/ProblemSTL";
 import ProblemLinkedList from "../src/components/ProblemLinkedList";
 import ProblemStacks from "../src/components/ProblemStacks";
-import ProblemQueues from "../src/components/ProblemQueues";
 import ProblemTrees from "../src/components/ProblemTrees";
-import ProblemBinaryTrees from "../src/components/ProblemBinaryTrees";
-import ProblemBinarySearchTrees from "../src/components/ProblemBinarySearchTrees";
 import ProblemHashmaps from "../src/components/ProblemHashmaps";
 import ProblemPriorityQueues from "../src/components/ProblemPriorityQueues";
 import ProblemTries from "../src/components/ProblemTries";
@@ -66,14 +63,10 @@ function App() {
         return <ProblemLinkedList />;
       case "Stacks":
         return <ProblemStacks />;
-      case "Queues":
-        return <ProblemQueues />;
+
       case "Trees":
         return <ProblemTrees />;
-      case "BinaryTrees":
-        return <ProblemBinaryTrees />;
-      case "BinarySearchTrees":
-        return <ProblemBinarySearchTrees />;
+
       case "Hashmaps":
         return <ProblemHashmaps />;
       case "PriorityQueues":
