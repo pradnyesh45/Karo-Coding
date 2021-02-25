@@ -11,7 +11,7 @@ function Introduction({ value, onDonateClick }) {
         <Container>
           <h1>Welcome to Karo Coding!</h1>
           <h2>Making you Intermediate at Coding from Scratch</h2>
-          <h3>You don't even have to pay $0.00 </h3>
+          <h3>You don't even have to pay Rs. 0.00 </h3>
           <h3> It's Completely FREE! FREE! FREE!</h3>
           <p>
             If you are someone who wants to start a carrer in Tech Industry,

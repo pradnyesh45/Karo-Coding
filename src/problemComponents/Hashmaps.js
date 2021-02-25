@@ -1,5 +1,4 @@
 import React from "react";
-import { Table, Container } from "react-bootstrap";
 
 function Hashmaps(props) {
   return (
@@ -7,19 +6,19 @@ function Hashmaps(props) {
       <td>{props.HashmapsList.id}</td>
       <td>{props.HashmapsList.problemStatement}</td>
       <td>
-        {props.LinkedListList.problemLink === "No Link" ? (
+        {props.HashmapsList.problemLink === "No Link" ? (
           "No Link"
         ) : (
-          <a href={props.LinkedListList.problemLink} target="_blank">
+          <a href={props.HashmapsList.problemLink} target="_blank">
             Problem Link
           </a>
         )}
       </td>
       <td>
-        {props.LinkedListList.tutorialLink === "No Link" ? (
+        {props.HashmapsList.tutorialLink === "No Link" ? (
           "No Link"
         ) : (
-          <a href={props.LinkedListList.tutorialLink} target="_blank">
+          <a href={props.HashmapsList.tutorialLink} target="_blank">
             Tutorial Link
           </a>
         )}

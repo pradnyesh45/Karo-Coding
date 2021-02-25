@@ -104,18 +104,18 @@ function Navigation({ value, onChildClick }) {
         </Button>
 
         <Button
-          value="Hashing"
+          value="Hashmaps"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Hashmaps
+          Hashing
         </Button>
         <Button
-          value="PriorityQueues/Heap"
+          value="PriorityQueues"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Priority Queues
+          Priority Queues/Heap
         </Button>
         <Button
           value="Tries"
@@ -125,12 +125,13 @@ function Navigation({ value, onChildClick }) {
           Tries
         </Button>
         <Button
-          value="Greedy"
+          value="Backtracking"
           onClick={handleClick}
           style={{ margin: 5, backgroundColor: "#ff0000" }}
         >
-          Greedy
+          Backtracking
         </Button>
+
         <Button
           value="DynamicProgramming"
           onClick={handleClick}

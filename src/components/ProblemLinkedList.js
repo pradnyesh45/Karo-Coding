@@ -12,7 +12,8 @@ var LinkedListList = [
   {
     id: 2,
     problemStatement: "Linked List - Insert Node at beginning or end using C++",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/linked-list-insertion/1",
     tutorialLink: "https://www.youtube.com/watch?v=wVEX3UsKEVA",
   },
   {
@@ -24,19 +25,22 @@ var LinkedListList = [
   {
     id: 4,
     problemStatement: "Linked List - Middle Element using C++",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1",
     tutorialLink: "https://www.youtube.com/watch?v=M497FJW9mPk",
   },
   {
     id: 5,
     problemStatement: "Linked List - Reverse a Linked List using C++",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1",
     tutorialLink: "https://www.youtube.com/watch?v=PQIHq0vfADI",
   },
   {
     id: 6,
     problemStatement: "Linked List - Find or Detect Loop using C++",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1",
     tutorialLink: "https://www.youtube.com/watch?v=-V9BbUt8SbI",
   },
   {
@@ -77,7 +81,8 @@ var LinkedListList = [
     id: 12,
     problemStatement:
       "#4 Insertion after a node in Doubly Linked List in C Language",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1",
     tutorialLink: "https://www.youtube.com/watch?v=ku0sKeJfWhc",
   },
   {
@@ -104,7 +109,8 @@ var LinkedListList = [
     id: 15,
     problemStatement:
       "#8 Deletion of intermediate node in doubly linked list C Program",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1",
     tutorialLink: "https://www.youtube.com/watch?v=D2l4DXH69ic",
   },
   {

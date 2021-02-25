@@ -6,7 +6,7 @@ var RecursionList = [
   {
     id: 1,
     problemStatement: "Recursion basics - using factorial",
-    problemLink: "No Link",
+    problemLink: "https://practice.geeksforgeeks.org/problems/factorial5739/1",
     tutorialLink: "https://www.youtube.com/watch?v=_OmRGjbyzno",
   },
   {
@@ -32,7 +32,8 @@ var RecursionList = [
   {
     id: 5,
     problemStatement: "Fibonacci Sequence - Recursion with memoization",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1",
     tutorialLink: "https://www.youtube.com/watch?v=UxICsjrdlJA",
   },
   {
@@ -45,7 +46,8 @@ var RecursionList = [
   {
     id: 7,
     problemStatement: "Exponentiation - Calculate Pow(x,n) using recursion",
-    problemLink: "No Link",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1",
     tutorialLink: "https://www.youtube.com/watch?v=wAyrtLAeWvI",
   },
   {

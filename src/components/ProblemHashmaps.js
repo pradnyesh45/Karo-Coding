@@ -5,15 +5,60 @@ import Hashmaps from "../problemComponents/Hashmaps";
 var HashmapsList = [
   {
     id: 1,
-    problemStatement: "pattern1",
-    problemLink: "problem1",
-    tutorialLink: 0,
+    problemStatement: "What is Hashing in Data Structure Hindi",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=196YgZPWsSo",
   },
   {
     id: 2,
-    problemStatement: 1,
-    problemLink: 1,
-    tutorialLink: 1,
+    problemStatement: "Hash Functions in Data Structure Hindi",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=DomJ5vCQaCQ",
+  },
+  {
+    id: 3,
+    problemStatement: "Collision resolution in Hashing in Data Structure Hindi",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=VFttxMbSSos",
+  },
+  {
+    id: 4,
+    problemStatement: "Hashing and Hash table in data structure and algorithm",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=Ke_tII6Y0GE",
+  },
+  {
+    id: 5,
+    problemStatement:
+      "Good Hash Function - (Even Distribution | Easy Computation) Hashing",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=4ZJQ6ehmAsg",
+  },
+  {
+    id: 6,
+    problemStatement:
+      "Open Hashing (Separate Chaining) Collision Resolution in Hash Table/Hashing",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=_6IGfyI-6vM",
+  },
+  {
+    id: 7,
+    problemStatement:
+      "Hashing - Collision Resolution with Linear Probing (Open Addressing)",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=CwM-Cxilk4g",
+  },
+  {
+    id: 8,
+    problemStatement: "Hashing - Quadratic Probing for Collision Resolution",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=_qEnJUPDUFU",
+  },
+  {
+    id: 9,
+    problemStatement: "Hashing - Double Hashing Collision Resolution",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=lDMc4hg1lUk",
   },
 ];
 

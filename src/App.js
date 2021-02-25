@@ -17,12 +17,12 @@ import ProblemTrees from "../src/components/ProblemTrees";
 import ProblemHashmaps from "../src/components/ProblemHashmaps";
 import ProblemPriorityQueues from "../src/components/ProblemPriorityQueues";
 import ProblemTries from "../src/components/ProblemTries";
-import ProblemGreedy from "../src/components/ProblemGreedy";
 import ProblemDynamicProgramming from "../src/components/ProblemDynamicProgramming";
 import ProblemGraphs from "../src/components/ProblemGraphs";
 import ProblemBitManipulation from "../src/components/ProblemBitManipulation";
 import BeforeStarting from "../src/components/BeforeStarting";
 import Donate from "../src/components/Donate";
+import ProblemBacktracking from "../src/components/ProblemBacktracking";
 
 function App() {
   let [component, setComponent] = useState("BeforeStarting");
@@ -63,24 +63,23 @@ function App() {
         return <ProblemLinkedList />;
       case "Stacks":
         return <ProblemStacks />;
-
       case "Trees":
         return <ProblemTrees />;
-
       case "Hashmaps":
         return <ProblemHashmaps />;
       case "PriorityQueues":
         return <ProblemPriorityQueues />;
       case "Tries":
         return <ProblemTries />;
-      case "Greedy":
-        return <ProblemGreedy />;
+
       case "DynamicProgramming":
         return <ProblemDynamicProgramming />;
       case "Graphs":
         return <ProblemGraphs />;
       case "BitManipulation":
         return <ProblemBitManipulation />;
+      case "Backtracking":
+        return <ProblemBacktracking />;
       default:
         return null;
     }
