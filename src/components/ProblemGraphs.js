@@ -121,6 +121,120 @@ var GraphsList = [
       "https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1",
     tutorialLink: "https://www.youtube.com/watch?v=xthRL0lcx2w",
   },
+  {
+    id: 19,
+    problemStatement: "Kruskals algorithm | Construct MST",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=_Iz-QLBGKpM",
+  },
+  {
+    id: 20,
+    problemStatement: "Kruskal algorithm implementation",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=Ub-fJ-KoBQM",
+  },
+  {
+    id: 21,
+    problemStatement:
+      "Dijkstra algorithm | Single source shortest path algorithm",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=Sj5Z-jaE2x0",
+  },
+  {
+    id: 22,
+    problemStatement: "Dijkstra algorithm | Code implementation",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/shortest-path-from-1-to-n0156/1",
+    tutorialLink: "https://www.youtube.com/watch?v=t2d-XYuPfg0",
+  },
+  {
+    id: 23,
+    problemStatement: "Bellman Ford Algorithm",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=FrLWd1tJ_Wc",
+  },
+  {
+    id: 24,
+    problemStatement: "Bellman Ford Algorithm Code Implementation",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1",
+    tutorialLink: "https://www.youtube.com/watch?v=24HziTZ8_xo",
+  },
+  {
+    id: 25,
+    problemStatement: "Floyd Warshall algorithm | All pairs shortest path",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0",
+    tutorialLink: "https://www.youtube.com/watch?v=nV_wOZnhbog",
+  },
+  {
+    id: 26,
+    problemStatement:
+      "Kosaraju Algorithm | Strongly connected components in a graph",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
+    tutorialLink: "https://www.youtube.com/watch?v=Rs6DXyWpWrI",
+  },
+  {
+    id: 27,
+    problemStatement: "Tarjans strongly connected components algorithm",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/strongly-connected-component-tarjanss-algo-1587115621/1",
+    tutorialLink: "https://www.youtube.com/watch?v=ZeDNSeilf-Y",
+  },
+  {
+    id: 28,
+    problemStatement: "Tarjans strongly connected components algorithm",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=64KK9K4RpKE",
+  },
+  {
+    id: 29,
+    problemStatement:
+      "Find Bridges in a graph using Tarjans Algorithm | Cut Edge",
+    problemLink: "No Link",
+    tutorialLink: "https://www.youtube.com/watch?v=Rhxs4k6DyMM",
+  },
+  {
+    id: 30,
+    problemStatement:
+      "Euler Graph | Euler Circuit | Euler Path | Eulerian Graph | Semi Eulerian Graph | Algorithm | CODE",
+    problemLink:
+      "https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1",
+    tutorialLink: "https://www.youtube.com/watch?v=WY6Jsp3NxIk",
+  },
+  {
+    id: 31,
+    problemStatement: "Network Delay Time",
+    problemLink: "https://leetcode.com/problems/network-delay-time/",
+    tutorialLink: "https://www.youtube.com/watch?v=YHx6r9pM5e0",
+  },
+  {
+    id: 32,
+    problemStatement: "Word Ladder",
+    problemLink: "https://leetcode.com/problems/word-ladder/",
+    tutorialLink: "https://www.youtube.com/watch?v=ZVJ3asMoZ18",
+  },
+  {
+    id: 33,
+    problemStatement: "Word Ladder 2 ",
+    problemLink: "https://leetcode.com/problems/word-ladder-ii/",
+    tutorialLink: "https://www.youtube.com/watch?v=mIZJIuMpI2M",
+  },
+  {
+    id: 34,
+    problemStatement: "Critical Connections in a network ",
+    problemLink:
+      "https://leetcode.com/problems/critical-connections-in-a-network/",
+    tutorialLink: "https://www.youtube.com/watch?v=HsBefuOqkd4",
+  },
+  {
+    id: 35,
+    problemStatement: "Number of Operations to Make Network Connected ",
+    problemLink:
+      "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    tutorialLink: "https://www.youtube.com/watch?v=3JIwIRir2sM",
+  },
 ];
 
 function ProblemGraphs() {
