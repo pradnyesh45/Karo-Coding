@@ -18,8 +18,8 @@ function Introduction({ value, onDonateClick }) {
             then Coding is one of the most essential skills required to excel in
             this field. So, if you are someone who have just started his/her
             Coding journey or you are someone who wants to switch career into
-            Tech. Then you are at the exact right place. Content is provided in
-            Hinglish Language.
+            Tech. Then you are at the exact right place. Video Tutotials are
+            provided in Hinglish(Hindi + Engligh) Language. Happy Coding!
           </p>
           <Button value="true" onClick={handleClick} variant="success">
             Donate

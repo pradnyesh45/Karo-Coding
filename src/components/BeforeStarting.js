@@ -23,9 +23,21 @@ function BeforeStarting() {
           </li>
           <hr></hr>
           <li>
+            If you face any problem or doubt, head over to internet. Google your
+            queries. As a beginner, it is highly likely that you will get your
+            required answers through that.
+          </li>
+          <hr></hr>
+          <li>
+            It is completely okay to skip some questions and move onto another
+            topic if you feel confident enough of the current one. You can come
+            back to solve the remaining when you have explored all the topics.
+          </li>
+          <hr></hr>
+          <li>
             When you have finished with one topic, if you want you can head over
-            to various sites such HackerRank, ect. and try to solve problems on
-            the given topic.
+            to various sites such HackerRank, geeksforgeeks, LeetCode, ect. and
+            try to solve problems on the given topic.
           </li>
           <hr></hr>
           <li>
