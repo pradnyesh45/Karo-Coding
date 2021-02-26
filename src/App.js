@@ -1,7 +1,7 @@
 import Heading from "../src/components/Heading";
 import Navigation from "../src/components/Navigation";
 import ProblemCpp from "./components/ProblemCpp";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Introduction from "../src/components/Introduction";
 import ProblemPatternPrinting from "../src/components/ProblemPatternPrinting";
 import ProblemArrays from "../src/components/ProblemArrays";
@@ -23,8 +23,17 @@ import ProblemBitManipulation from "../src/components/ProblemBitManipulation";
 import BeforeStarting from "../src/components/BeforeStarting";
 import Donate from "../src/components/Donate";
 import ProblemBacktracking from "../src/components/ProblemBacktracking";
+import ReactGA from "react-ga";
+import Disqus from "disqus-react";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("UA-190607342-1");
+
+    // to report page view
+    ReactGA.pageview("/");
+  }, []);
+
   let [component, setComponent] = useState("BeforeStarting");
 
   function handleChildClick(value) {
@@ -103,6 +112,7 @@ function App() {
       <Navigation onChildClick={handleChildClick} />
       <br></br>
       {ProblemComponent(component)}
+      <Disqus />
     </div>
   );
 }
