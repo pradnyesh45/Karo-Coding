@@ -112,6 +112,7 @@ function App() {
       <Navigation onChildClick={handleChildClick} />
       <br></br>
       {ProblemComponent(component)}
+      <br></br>
       <Disqus />
     </div>
   );
