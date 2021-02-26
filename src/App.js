@@ -24,7 +24,7 @@ import BeforeStarting from "../src/components/BeforeStarting";
 import Donate from "../src/components/Donate";
 import ProblemBacktracking from "../src/components/ProblemBacktracking";
 import ReactGA from "react-ga";
-import Disqus from "disqus-react";
+import Disqus from "../src/components/Disqus";
 
 function App() {
   useEffect(() => {
