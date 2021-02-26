@@ -23,7 +23,7 @@ function Introduction({ value, onDonateClick }) {
             this field. So, if you are someone who have just started his/her
             Coding journey or you are someone who wants to switch career into
             Tech. Then you are at the exact right place. Video Tutotials are
-            provided in Hinglish(Hindi + Engligh) Language. Happy Coding!
+            provided in Hinglish(Hindi + English) Language. Happy Coding!
           </p>
           <Button value="true" onClick={handleClick} variant="success">
             Donate
