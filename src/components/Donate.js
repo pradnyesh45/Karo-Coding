@@ -14,7 +14,7 @@ function Donate({ value, onDonateClick }) {
             <Card.Text>
               If you find this application useful then you can show your
               appreciation by donating some amount of your choice to the given
-              UPI id. Happy Coding!
+              UPI Id. Happy Coding!
             </Card.Text>
             <Button value="false" onClick={handleClick} variant="primary">
               Back
@@ -38,6 +38,8 @@ function Donate({ value, onDonateClick }) {
               on the internet, it's just the right kind of discipline which was
               missing. He believes that with the right amount of efforts anyone
               can become good at Coding.
+              <br></br>
+              Email: pradnyeshaglawe12@gmail.com
             </Card.Text>
           </Card.Body>
         </Card>
